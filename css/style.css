@@ -1,0 +1,437 @@
+/*--  Stylesheet  --*/
+
+* {
+	font-family: arial;
+}
+
+/*---------------------------------------------------------------------------------------------header--*/
+
+header {
+	width: 100%;
+	float: left;
+	background: url("../img/nava-banner.png")no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+/*-------------------------------------------------------------------------------header : header-top--*/
+
+.header-top {
+	width: 100%;
+	float: left;
+	background-color: #00000075;
+}
+
+.logo {
+	padding: 35px 5px;
+}
+.logo img {
+	display: block;
+	width: 150px;
+}
+
+.menu {
+	text-align: right;
+    font-family: arial;
+}
+.menu ul {
+	list-style: none;
+	margin: 38px 0;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.menu ul li a:hover {
+	border: 1px solid #fff;
+}
+
+/*----------------------------------------------------------------------------------header : hero--*/
+
+.hero {
+	width: 100%;
+	float: left;
+	background-color: #00000075;
+	padding: 140px 0;
+}
+.hero-box {
+
+}
+.hero-box h1 {
+	color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.hero-box p {
+	color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.form-box {
+	width: 40%;
+	margin: 0 auto;
+}
+.form-part-one {
+	width: 75%;
+	float: left;
+}
+.form-part-two {
+	width: 25%;
+	float: left;
+}
+.form-input {
+	width: 100%;
+    background-color: #fff;
+    color: #858585;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 13px 15px;
+    font-size: 12px;
+}
+.form-btn {
+	width: 100%;
+    background-color: #e7434e;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 13px 15px;
+    font-size: 12px;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.form-btn:hover {
+    background-color: #ffffff;
+    color: #e7434e;
+}
+}
+
+/*-----------------------------------------------------------------------section-numbers--*/
+
+.section-two {
+	width: 100%;
+    float: left;
+}
+
+.sec-numbers {
+	width: 100%;
+    float: left;
+    position: relative;
+    height: 30px;
+}
+.numbers-box {
+	background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 70%;
+    top: -77px;
+    left: 14.5%;
+}
+.numbers {
+	text-align: center;
+    border: 1px solid transparent;
+    border-left-color: #aeaeae;
+    padding: 0;
+    padding: 0 8%;
+}
+.numbers-1 {
+	border: none;
+}
+
+/*--------------------------------------------------------------------------section-six-image--*/
+
+.section-six-image {
+	width: 100%;
+	float: left;
+}
+
+.section-six-image-text {
+	text-align: center;    
+	margin: 50px 0;
+}
+.section-six-image-text h4 {
+	font-size: 20px;
+}
+.section-six-image-text p {
+	font-size: 13px;
+	color: #757575;
+}
+
+.section-six-image-img {
+	margin-bottom: 25px;
+}
+.img-six-big {
+
+}
+.img-six {
+
+}
+
+.img-six-big img {
+	display: block;
+	width: 100%;
+}
+.img-six img {
+	display: block;
+	width: 100%;
+}
+
+
+.section-six-btn {
+	text-align: center;
+    margin: 50px 0 75px 0;
+}
+.section-six-btn button {
+	background-color: transparent;
+    color: #262626;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.section-six-btn button:hover {
+	background-color: #e7434e;
+    color: #ffffff;
+    border-color: #e7434e;
+}
+
+
+/*-----------------------------------------------------------------------------section-hero-two--*/
+
+.section-hero-two {
+	width: 100%;
+	float: left;
+	background: url("../img/nava-banner2.png")no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+.hero-two-box {
+	background-color: #00000075;
+    text-align: center;    
+    padding: 150px 0;
+}
+.hero-two-box h1 {
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.hero-two-box p {
+	color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.hero-two-box button {
+	background-color: #e7434e;
+    color: #ffffff;
+    border: 1px solid #e7434e;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 50px;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.hero-two-box button:hover {
+	background-color: transparent;
+    color: #ffffff;
+    border-color: #fff;
+}
+
+/*----------------------------------------------------------------------------section-four-image--*/
+
+.section-four-image {
+	width: 100%;
+	float: left;
+}
+
+.section-four-image-text {
+	text-align: center;    
+	margin: 50px 0;
+}
+.section-four-image-text h4 {
+	font-size: 20px;
+}
+.section-four-image-text p {
+	font-size: 13px;
+	color: #757575;
+}
+
+.section-four-image-img {
+	margin-bottom: 25px;
+}
+.img-four-big {
+
+}
+.img-four {
+
+}
+
+.img-four-big img {
+	display: block;
+	width: 100%;
+}
+.img-four img {
+	display: block;
+	width: 100%;
+}
+
+
+.section-four-btn {
+	text-align: center;
+    margin: 50px 0 75px 0;
+}
+.section-four-btn button {
+	background-color: transparent;
+    color: #262626;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.section-four-btn button:hover {
+	background-color: #e7434e;
+    color: #ffffff;
+    border-color: #e7434e;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------footer--*/
+
+ footer {
+ 	width: 100%;
+ 	float: left;
+ 	background-color: #404040;
+ }
+ .footer-border {
+ 	width: 100%;
+ 	height: 5px;
+	background: url("../img/footer-border.png")no-repeat;
+	background-size: cover;
+ }
+
+ .footer-text {
+ 	text-align: left;
+    color: #fff;
+    padding: 50px 7%;
+ }
+ .footer-text h5 {
+ 	font-size: 13px;
+    font-weight: bold;
+ }
+ .footer-text p {
+ 	font-size: 11px;
+    line-height: 30px;
+ }
+
+ .footer-form {
+ 	padding: 50px 0;
+ }
+ .footer-form h5{
+ 	text-align: left;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+ }
+
+.footer-form-part-one {
+	width: 70%;
+	float: left;
+}
+.footer-form-part-two {
+	width: 30%;
+	float: left;
+}
+.footer-form-input {
+	width: 100%;
+    background-color: #fff;
+    color: #858585;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px 10px;
+    font-size: 12px;
+}
+.footer-form-btn {
+	width: 100%;
+    background-color: #e7434e;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 10px 8px;
+    font-size: 12px;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.footer-form-btn:hover {
+    background-color: #ffffff;
+    color: #e7434e;
+}
+
+.footer-form-icon {
+
+}
+.footer-form-icon-bg {
+	height: 35px;
+	width: 35px;
+	float: left;
+	background-color: #717171;
+	color: #fff;
+	text-align: center;
+	border-radius: 50px;
+	padding: 6px 0px;
+    margin: 25px 15px 0px 0px;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+.footer-form-icon-bg a {
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-o-transition: 0.8s ease;
+}
+
+.footer-form-icon-bg:hover {
+	background-color: #fff;
+}
+.footer-form-icon-bg:hover a{
+	color: #e7434e;
+}

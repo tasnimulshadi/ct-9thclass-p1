@@ -1,0 +1,315 @@
+/*-- Media Query --*/
+
+/*----------------  MOBILES  ------------------*/
+@media (min-width: 0px) and (max-width: 500px){
+
+.logo {
+	padding: 10px 0;
+}
+.logo img {
+	margin: 0 auto;
+}
+
+.menu {
+	text-align: center;
+}
+.menu ul {
+	margin:0;
+}
+.menu ul li a {
+	padding: 10px 10px;
+	font-size: 10px;
+}
+
+.hero {
+	padding: 30px 0;
+}
+.hero-box h1 {
+    font-size: 28px;
+}
+.hero-box p {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+
+.form-box {
+	width: 90%;
+}
+.form-part-one {
+	width: 70%;
+}
+.form-part-two {
+	width: 30%;
+}
+.form-input {
+    padding: 7px 10px;
+    font-size: 9px;
+}
+.form-btn {
+    padding: 7px 0;
+    font-size: 9px;
+}
+
+.sec-numbers {
+    height: 195px;
+}
+.numbers-box {
+    width: 70%;
+    top: 0px;
+    padding: 15px 0;
+}
+.numbers-3 {
+	border: none;
+}
+
+.section-six-image-text {   
+	margin: 10px 0;
+}
+.section-six-image-text h4 {
+	font-size: 15px;
+}
+.section-six-image-text p {
+	font-size: 10px;
+}
+
+.section-six-image-img {
+	margin-bottom: 15px;
+}
+.img-six-big img {
+	height: 200px;
+}
+.img-six img {
+	height: 200px;
+}
+
+.section-six-btn {
+    margin: 15px 0 25px 0;
+}
+.section-six-btn button {
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+.hero-two-box {   
+    padding: 50px 0;
+}
+.hero-two-box h1 {
+    font-size: 28px;
+}
+.hero-two-box p {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+.hero-two-box button {
+	font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.section-four-image-text {   
+	margin: 30px 0 10px 0;
+}
+.section-four-image-text h4 {
+	font-size: 15px;
+}
+.section-four-image-text p {
+	font-size: 10px;
+}
+.section-four-image-img {
+	margin-bottom: 15px;
+}
+.section-four-btn {
+	margin: 0 0 30px 0;
+}
+.section-four-btn button {
+	font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+ .footer-text {
+ 	padding: 30px 7% 0px 7%;
+ }
+ .footer-text p {
+ 	line-height: 20px;
+ }
+
+.footer-form {
+	padding: 10px 7%;
+ }
+.footer-form-input {
+    padding: 8px 10px;
+    font-size: 10px;
+}
+.footer-form-btn {
+    padding: 8px 8px;
+    font-size: 10px;
+}
+
+
+
+
+
+}
+
+/*----------------  TABLETS  ------------------*/
+@media (min-width: 501px) and (max-width: 767px){
+	
+
+.logo {
+	padding: 10px 0;
+}
+.logo img {
+	margin: 0 auto;
+}
+
+.menu {
+	text-align: center;
+}
+.menu ul {
+	margin:0;
+}
+.menu ul li a {
+	padding: 10px 10px;
+	font-size: 10px;
+}
+
+.hero {
+	padding: 30px 0;
+}
+.hero-box h1 {
+    font-size: 28px;
+}
+.hero-box p {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+
+.form-box {
+	width: 90%;
+}
+.form-part-one {
+	width: 70%;
+}
+.form-part-two {
+	width: 30%;
+}
+.form-input {
+    padding: 7px 10px;
+    font-size: 9px;
+}
+.form-btn {
+    padding: 7px 0;
+    font-size: 9px;
+}
+
+.sec-numbers {
+    height: 195px;
+}
+.numbers-box {
+    width: 70%;
+    top: 0px;
+    padding: 15px 0;
+}
+.numbers-3 {
+	border: none;
+}
+
+.section-six-image-text {   
+	margin: 10px 0;
+}
+.section-six-image-text h4 {
+	font-size: 15px;
+}
+.section-six-image-text p {
+	font-size: 10px;
+}
+
+.section-six-image-img {
+	margin-bottom: 15px;
+}
+.img-six-big img {
+	height: 250px;
+}
+.img-six img {
+	height: 250px;
+}
+
+.section-six-btn {
+    margin: 15px 0 25px 0;
+}
+.section-six-btn button {
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+.hero-two-box {   
+    padding: 50px 0;
+}
+.hero-two-box h1 {
+    font-size: 28px;
+}
+.hero-two-box p {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+.hero-two-box button {
+	font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.section-four-image-text {   
+	margin: 30px 0 10px 0;
+}
+.section-four-image-text h4 {
+	font-size: 15px;
+}
+.section-four-image-text p {
+	font-size: 10px;
+}
+.section-four-image-img {
+	margin-bottom: 15px;
+}
+.section-four-btn {
+	margin: 0 0 30px 0;
+}
+.section-four-btn button {
+	font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+ .footer-text {
+ 	padding: 30px 7% 0px 7%;
+ }
+ .footer-text p {
+ 	line-height: 20px;
+ }
+
+.footer-form {
+	padding: 10px 7%;
+ }
+.footer-form-input {
+    padding: 8px 10px;
+    font-size: 10px;
+}
+.footer-form-btn {
+    padding: 8px 8px;
+    font-size: 10px;
+}
+
+
+
+
+}
+
+/*----------------  LAPTOPS  ------------------*/
+@media (min-width: 768px) and (max-width: 1199px){
+	
+}
+
+/*----------------  MOBILE  ------------------*/
+@media (min-width: 1200px){
+	
+}
